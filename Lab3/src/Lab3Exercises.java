@@ -9,5 +9,8 @@ public class Lab3Exercises {
 		myFrame.setVisible(true);
 		
 		//Application window's location based on computer monitor screen used in the laboratory.
+		
+		MyPanelClass myPanel = new MyPanelClass();
+        myFrame.getContentPane().add(myPanel);
 	}
 }
